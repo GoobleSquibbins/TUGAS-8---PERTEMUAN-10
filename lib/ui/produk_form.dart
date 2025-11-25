@@ -18,7 +18,9 @@ class _ProdukFormState extends State<ProdukForm> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.produk == null ? "Tambah Produk" : "Ubah Produk"),
+        title: Text(
+          widget.produk == null ? "Tambah Produk Arsya" : "Ubah Produk Arsya",
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16),

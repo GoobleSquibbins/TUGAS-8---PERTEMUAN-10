@@ -16,7 +16,7 @@ class _RegistrasiPageState extends State<RegistrasiPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Registrasi")),
+      appBar: AppBar(title: const Text("Registrasi Arsya")),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(8.0),
